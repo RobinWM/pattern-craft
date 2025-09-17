@@ -41,6 +41,7 @@ export default function Home() {
               />
             )}
             <div className="relative z-10">
+              {/*  
               <Navbar theme={theme} />
               <SupportDropdown theme={theme} />
               <Hero
@@ -48,6 +49,7 @@ export default function Home() {
                 setActivePattern={setActivePattern}
                 theme={theme}
               />
+              */}
               <PatternShowcase
                 activePattern={activePattern}
                 setActivePattern={setActivePattern}
